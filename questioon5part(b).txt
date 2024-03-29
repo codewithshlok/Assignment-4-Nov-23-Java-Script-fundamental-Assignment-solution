@@ -1,0 +1,37 @@
+Q5. Explain the importance of choosing meaningful and descriptive variable names in JavaScript.
+Provide an example where using a clear identifier improves code readability.
+
+Answer - Comments in javascript are essential fror code readability , maintainability and collaborations among developers. They serve several important purpose.
+
+1. Documentation : Comments provide explanation and context about the code's purpose , logic and functionality. this makes it easier for other developers to understand and work with the code.
+
+2. Debuggin : Coments can be used to temporarilydisbale or "commment out " code dusring debugging , helping you isolate issue without deletingcode.
+
+3. Communication : Comments allow developers to Communicate with the each other , exploring why certain decision were made or describing how specific code segments work.
+
+4. Organization : Comments can be used to divide code into logical sections , making it easier to negative and maintain larger codebase.
+
+5. Legal and Compliance : In some case comments may be required to explain licensing , copyright, information or compliance with regualtions.
+
+Single-line Comment:
+Use double slashes (//) to create single-line comments. Anything after // on the same line is considered a  comment and is not executed by the JavaScript interpreter.
+
+// This is a single-line comment
+let age = 30; // This comment explains the variable's purpose
+
+
+Multi-line Comment:
+Use /* to begin a multi-line comment and */ to end it. Everything between these symbols is treated as a comment, allowing you to write comments spanning multiple lines.
+
+/*
+This is a multi-line comment.
+It can provide detailed explanations for code blocks.
+*/
+function calculateArea(width, height) {
+return width * height;
+}
+
+
+Keep in mind that while comments are valuable, it's also important to maintain them and ensure they stay up
+to date with changes in the code. Clear and well-maintained comments can significantly improve the
+readability and maintainability of your JavaScript code.
